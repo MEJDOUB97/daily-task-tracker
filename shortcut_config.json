@@ -1,0 +1,24 @@
+{
+  "app_name": "Daily Task Tracker Pro",
+  "main_files": [
+    "task_tracker.py",
+    "app.py",
+    "main.py",
+    "daily_task_tracker.py"
+  ],
+  "launcher_files": {
+    "windows": "run_task_tracker.bat",
+    "macos": "run_task_tracker.sh",
+    "linux": "run_task_tracker.sh"
+  },
+  "icon_preferences": [
+    "app.ico",
+    "icon.ico",
+    "tasktracker.ico"
+  ],
+  "categories": {
+    "windows": "Productivity",
+    "macos": "Productivity",
+    "linux": "Office;ProductivityApp"
+  }
+}
